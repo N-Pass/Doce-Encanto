@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Doce Encanto Confeitaria | Doces Artesanais</title>
+
+    <!-- Importando Fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Ícones (FontAwesome) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 1. Cabeçalho -->
+    <header>
+      <div class="container nav-container">
+        <div class="logo">Doce Encanto</div>
+        <button class="mobile-menu-btn" aria-label="Abrir menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#inicio" class="nav-link">Início</a></li>
+            <li><a href="#produtos" class="nav-link">Produtos</a></li>
+            <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+            <li>
+              <a href="#contato" class="btn btn-primary btn-small"
+                >Fazer encomenda</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 2. Seção Principal / Hero -->
+    <section id="inicio">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Doces artesanais feitos para momentos especiais</h1>
+          <p>
+            Na Doce Encanto, transformamos ingredientes selecionados em bolos,
+            brigadeiros e tortas que fazem seus olhos brilharem. Tudo feito com
+            amor e carinho para o seu evento.
+          </p>
+          <div class="hero-buttons">
+            <a href="#produtos" class="btn btn-secondary">Ver produtos</a>
+            <a href="#contato" class="btn btn-primary">Solicitar orçamento</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Imagem de doces variados (Seed aleatória para consistência) -->
+          <img
+            src="https://picsum.photos/seed/bakeryhero/600/400.jpg"
+            alt="Mesa repleta de doces artesanais decorados"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Seção de Produtos -->
+    <section id="produtos" class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title">Nossos Doces</h2>
+          <p class="section-subtitle">
+            Escolha o favorito para a sua celebração
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <!-- Produto 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://picsum.photos/seed/chocolatecake/400/300.jpg"
+                alt="Bolo de Chocolate"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Bolo de Chocolate</h3>
+              <p class="product-desc">
+                Massa de cacau 50%, recheio de brigadeiro e cobertura de
+                ganache.
+              </p>
+              <div class="product-footer">
+                <span class="price">Sob Encomenda</span>
+                <a href="#contato" class="btn btn-primary btn-small"
+                  >Tenho interesse</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Produto 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://picsum.photos/seed/brigadeiro/400/300.jpg"
+                alt="Brigadeiros Gourmet"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Brigadeiros Gourmet</h3>
+              <p class="product-desc">
+                Caixa com 15 ou 30 unidades. Sabores: Ninho com Nutella,
+                Pistache e Tradicional.
+              </p>
+              <div class="product-footer">
+                <span class="price">A partir de R$ 35,00</span>
+                <a href="#contato" class="btn btn-primary btn-small"
+                  >Tenho interesse</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Produto 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://picsum.photos/seed/berrypie/400/300.jpg"
+                alt="Torta de Frutas"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Torta de Frutas Vermelhas</h3>
+              <p class="product-desc">
+                Massa amanteigada, creme de confeiteiro e morangos frescos.
+              </p>
+              <div class="product-footer">
+                <span class="price">R$ 80,00</span>
+                <a href="#contato" class="btn btn-primary btn-small"
+                  >Tenho interesse</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Produto 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://picsum.photos/seed/sweetbox/400/300.jpg"
+                alt="Caixa de Doces"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Kit Festa Completo</h3>
+              <p class="product-desc">
+                Combinação especial de bolos, beijinhos e brigadeiros para seu
+                evento.
+              </p>
+              <div class="product-footer">
+                <span class="price">Sob Consulta</span>
+                <a href="#contato" class="btn btn-primary btn-small"
+                  >Tenho interesse</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Seção de Diferenciais -->
+    <section id="diferenciais" class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title">Por que nos escolher?</h2>
+          <p class="section-subtitle">Qualidade do início ao fim</p>
+        </div>
+        <div class="differentials-grid">
+          <div class="diff-item">
+            <i class="fas fa-cookie-bite diff-icon"></i>
+            <h3 class="diff-title">Produção 100% Artesanal</h3>
+            <p>
+              Feito à mão diariamente para garantir a frescura e o sabor
+              inconfundível.
+            </p>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-leaf diff-icon"></i>
+            <h3 class="diff-title">Ingredientes Selecionados</h3>
+            <p>
+              Utilizamos chocolates nobres, frutas frescas e produtos de
+              primeira linha.
+            </p>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-heart diff-icon"></i>
+            <h3 class="diff-title">Encomendas Personalizadas</h3>
+            <p>
+              Criamos doces exclusivos de acordo com o tema e gosto do cliente.
+            </p>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-truck diff-icon"></i>
+            <h3 class="diff-title">Entrega Agendada</h3>
+            <p>
+              Entregamos no dia e horário que combinar, para você não ter
+              preocupação.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Seção Sobre -->
+    <section id="sobre" class="section-padding">
+      <div class="container about-content">
+        <div class="about-image">
+          <img
+            src="https://picsum.photos/seed/bakerwoman/600/500.jpg"
+            alt="Confeiteira preparando doces"
+          />
+        </div>
+        <div class="about-text">
+          <h2>Nossa História</h2>
+          <p>
+            A Doce Encanto nasceu do sonho de transformar o amor pela cozinha em
+            sorrisos. Começamos pequenos, na cozinha de casa, fazendo bolos para
+            aniversários da família.
+          </p>
+          <p>
+            Com o tempo, a dedicação e o cuidado com cada detalhe chamaram a
+            atenção de mais amigos e vizinhos. Hoje, somos uma confeitaria
+            especializada em trazer elegância e sabor para seus momentos mais
+            importantes.
+          </p>
+          <p>
+            Acreditamos que cada doce conta uma história, e estamos honrados em
+            fazer parte da sua.
+          </p>
+          <br />
+          <a href="#contato" class="btn btn-primary">Entre em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Seção de Depoimentos -->
+    <section id="depoimentos" class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title">O que dizem nossos clientes</h2>
+          <p class="section-subtitle">
+            A satisfação de quem já provou nossos doces
+          </p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="testimonial-text">
+              "O bolo de casamento ficou simplesmente perfeito! Não era lindo de
+              mais, era saboroso demais. Todos os elogios foram para a massa."
+            </p>
+            <div class="client-info">
+              <img
+                src="https://picsum.photos/seed/user1/100/100.jpg"
+                alt="Foto Cliente"
+                class="client-avatar"
+              />
+              <div>
+                <h4 class="client-name">Mariana Costa</h4>
+                <span style="font-size: 0.8rem; color: #888">Casamento</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="testimonial-text">
+              "Encomendei a caixa de brigadeiros para o aniversário da minha mãe
+              e ela amou. O chocolate utilizado é realmente de primeira
+              qualidade."
+            </p>
+            <div class="client-info">
+              <img
+                src="https://picsum.photos/seed/user2/100/100.jpg"
+                alt="Foto Cliente"
+                class="client-avatar"
+              />
+              <div>
+                <h4 class="client-name">Carlos Ferreira</h4>
+                <span style="font-size: 0.8rem; color: #888">Presente</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="testimonial-text">
+              "Pontualidade e capricho. A torta de frutas vermelhas salvou o meu
+              jantar de última hora. Recomendo de olhos fechados!"
+            </p>
+            <div class="client-info">
+              <img
+                src="https://picsum.photos/seed/user3/100/100.jpg"
+                alt="Foto Cliente"
+                class="client-avatar"
+              />
+              <div>
+                <h4 class="client-name">Fernanda Alves</h4>
+                <span style="font-size: 0.8rem; color: #888"
+                  >Jantar Especial</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CTA Final -->
+    <section id="cta">
+      <div class="container">
+        <h2>Pronto para adoçar seu evento?</h2>
+        <p>
+          Não deixe para a última hora. Garanta sua encomenda com antecedência!
+        </p>
+        <!-- Botão que ancora para o rodapé (simulando contato) -->
+        <a href="#contato" class="btn">Pedir orçamento agora</a>
+      </div>
+    </section>
+
+    <!-- 8. Rodapé -->
+    <footer id="contato">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Doce Encanto</h3>
+            <p>
+              Transformando ingredientes em memórias afetivas através de doces
+              artesanais.
+            </p>
+            <div class="social-icons">
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3>Links Rápidos</h3>
+            <ul class="footer-links">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#produtos">Produtos</a></li>
+              <li><a href="#sobre">Sobre Nós</a></li>
+              <li><a href="#depoimentos">Depoimentos</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Contato</h3>
+            <ul class="footer-links">
+              <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+              <li><i class="fas fa-envelope"></i> contato@doceencanto.com</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Rua das Flores, 123 -
+                Centro
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            &copy; 2023 Doce Encanto Confeitaria. Todos os direitos reservados.
+          </p>
+          <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.7">
+            Projeto demonstrativo desenvolvido para portfólio.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
